@@ -17,10 +17,15 @@ app.use(require('./routes/html-routes'));
 app.use(require('./routes/api-routes'));
 
 // Mongoose Stuff
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout', {
-    useNewUrlParser: true,
-    useFindAndModify: false
-});
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+mongoose.connect(MONGODB_URI);
+
+// mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout', {
+//     useNewUrlParser: true,
+//     useFindAndModify: false
+// });
+
+
 
 app.listen(PORT, () => {
     console.log(`Listening on:  http://localhost:${PORT}`);
