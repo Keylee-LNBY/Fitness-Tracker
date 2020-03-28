@@ -11,5 +11,5 @@ router.get('/stats', (request, response) => {
     response.sendFile(path.join(__dirname, '../public/stats.html'));
 });
 
-// Make the routes accessable to other pages
+// Make the routes accessible to other pages
 module.exports = router;
