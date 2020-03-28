@@ -1,3 +1,4 @@
+//Requires the npm package mongoose's functionality which will be used throughout this page
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
