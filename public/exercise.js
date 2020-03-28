@@ -1,3 +1,4 @@
+// Pulling in all of the POST classes and IDs for information used in the javascript functionality
 const workoutTypeSelect = document.querySelector("#type");
 const cardioForm = document.querySelector(".cardio-form");
 const resistanceForm = document.querySelector(".resistance-form");
