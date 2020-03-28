@@ -1,7 +1,17 @@
 # Fitness-Tracker
 An application that helps you visually track your fitness with charts that update as you input information.
 
-Deployment Link: (to be added once deployed)
+# Browser View of Application
+
+![Landing Page](assets/workout.png)
+![Dash Board](assets/dashboard.png)
+
+# Mobile View of Application
+
+![Landing Page](assets/workout-mobile.png)
+![Dash Board](assets/dashboard-mobile.png)
+
+Deployment Link: (https://shrouded-ridge-77681.herokuapp.com/)
 
 
 # Purpose
@@ -15,3 +25,8 @@ I built the backend database using Mongo with a Mongoose schema and handle route
 ## Business Context
 
 A consumer will reach their fitness goals quicker when they track their workout progress.
+
+## Future Improvements 
+
+- Revamp color scheme
+- Add code to prevent an incomplete or blank exercise to the workout -- add it to the Complete onclick
