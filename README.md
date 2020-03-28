@@ -1,6 +1,8 @@
 # Fitness-Tracker
 An application that helps you visually track your fitness with charts that update as you input information.
 
+Deployment Link: (https://shrouded-ridge-77681.herokuapp.com/)
+
 # Browser View of Application
 
 ![Landing Page](assets/workout.png)
@@ -11,7 +13,6 @@ An application that helps you visually track your fitness with charts that updat
 ![Landing Page](assets/workout-mobile.png)
 ![Dash Board](assets/dashboard-mobile.png)
 
-Deployment Link: (https://shrouded-ridge-77681.herokuapp.com/)
 
 
 # Purpose
