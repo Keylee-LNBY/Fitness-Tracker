@@ -10,7 +10,7 @@ fetch("/api/workouts/range")
 
 
 API.getWorkoutsInRange()
-
+//Generates the color palette for the charts
   function generatePalette() {
     const arr = [
     "#003f5c",
