@@ -1,3 +1,4 @@
+// initializing function for the workout homepage aka route "/"
 init();
 
 async function init() {
